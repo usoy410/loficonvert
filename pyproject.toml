@@ -1,0 +1,11 @@
+[project]
+name = "loficonvert"
+version = "0.1.0"
+description = "A Python CLI tool to transform songs into lofi remixes by separating vocals and applying lofi effects."
+readme = "README.md"
+requires-python = "==3.10.*"
+dependencies = [
+    "librosa>=0.11.0",
+    "pydub>=0.25.1",
+    "spleeter>=2.4.2",
+]

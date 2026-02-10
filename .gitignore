@@ -1,0 +1,13 @@
+# Ignore virtual environment directory
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore output directory
+output/
+
+# Ignore pretrained models due to large size
+pretrained_models/
+.python-version
